@@ -8,7 +8,7 @@ When talking about  the makeup of the people in their (open source) community, I
 
 So it felt like a logical next step to standardize the ways that we ask questions about peoples' identities and demographic data.  
 
-The content and format of these questions were initially crowdsourced as part of the (demographics of the web survey)[https://github.com/drupaldiversity/diversity-of-the-web], run with support from Pantheon.
+The content and format of these questions were initially crowdsourced as part of the [demographics of the web survey](https://github.com/drupaldiversity/diversity-of-the-web), run with support from Pantheon.
 
 ## What is the point?
 Part of the challenge with measuring "diversity" in an open-source community is the very poor data from community to community.  If we can standardize the questions that we use, the answers (or range of answers) can be valid across communities.
@@ -22,3 +22,5 @@ This project isn't ethically complete - I have concerns about storing this data 
 - Recommend workflows for anonymous storage
 - Make this survey less US-centric and provide translations and additional questions appropriate for other countries.
 - Get more contributors
+
+Please get involved in our [github repository](https://github.com/drnikki/open-demographics/)!
