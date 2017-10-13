@@ -1,6 +1,10 @@
 ### Gender Identification
 
-    Do you consider yourself to be transgender/gender non-conforming?
+    Do you consider yourself to be transgender?
+    () Yes
+    () No
+
+    Do you consider yourself to be gender non-conforming?
     () Yes
     () No
 
@@ -16,4 +20,6 @@
 
 
 ### Rationale
-We separate the question of trans*/gender-non-conforming to include people with intersecting identities of "non-conforming" and "any other gender identity."  Because it is structured this way, people can identify as "male" and "gender non conforming."
+Not all gender non-conforming people consider themselves to be transgender, which is why it is a separate question.
+
+We separate the question of trans* and gender-non-conforming to include people with intersecting identities of "non-conforming" and "any other gender identity."  Because it is structured this way, people can identify as "male" and "gender non conforming."
