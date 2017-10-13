@@ -8,10 +8,13 @@
     () Yes
     () No
 
+    Are you intersex?
+    () Yes
+    () No
+
     What is your primary gender identity today?
     () Female
     () Genderqueer
-    () Intersex
     () Male
     () Trans F-M
     () Trans M-F
