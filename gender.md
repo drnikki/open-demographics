@@ -4,7 +4,7 @@
     () Yes
     () No
 
-    Do you consider yourself to be gender non-conforming?
+    Do you consider yourself to be gender non-conforming, gender diverse, gender varient, or gender expansive?
     () Yes
     () No
 
