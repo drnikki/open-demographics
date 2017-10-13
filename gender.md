@@ -13,36 +13,36 @@
     () No
 
     Where do you identify on the gender spectrum (check all that apply)?
-    () Woman
-    () Demi-girl
-    () Man
-    () Demi-boy
-    () Non-binary
-    () Demi-non-binary
-    () Genderqueer
-    () Genderflux
-    () Genderfluid
-    () Demi-fluid
-    () Demi-gender
-    () Bigender
-    () Trigender
-    () Multigender/polygender
-    () Pangender/omnigender
-    () Maxigender
-    () Aporagender
-    () Intergender
-    () Maverique
-    () Gender confusion/Gender f*ck
-    () Gender indifferent
-    () Graygender
-    () Agender/genderless
-    () Demi-agender
-    () Genderless
-    () Gender neutral
-    () Neutrois
-    () Androgynous
-    () Androgyne
-    () Prefer not to answer
+    [] Woman
+    [] Demi-girl
+    [] Man
+    [] Demi-boy
+    [] Non-binary
+    [] Demi-non-binary
+    [] Genderqueer
+    [] Genderflux
+    [] Genderfluid
+    [] Demi-fluid
+    [] Demi-gender
+    [] Bigender
+    [] Trigender
+    [] Multigender/polygender
+    [] Pangender/omnigender
+    [] Maxigender
+    [] Aporagender
+    [] Intergender
+    [] Maverique
+    [] Gender confusion/Gender f*ck
+    [] Gender indifferent
+    [] Graygender
+    [] Agender/genderless
+    [] Demi-agender
+    [] Genderless
+    [] Gender neutral
+    [] Neutrois
+    [] Androgynous
+    [] Androgyne
+    [] Prefer not to answer
     [___________] Self-identify
 
 
