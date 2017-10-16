@@ -10,7 +10,7 @@
     [] Native American
     [] Pacific Islander
     [] White
-    [] Other
+    [] Self Identify: _________________
     [] Prefer not to answer
 
 ### Rationale

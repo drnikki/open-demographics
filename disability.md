@@ -6,7 +6,7 @@
     [] Yes, Mental
     [] Yes, Physical
     [] Yes, Visual
-    [] Yes, Other
+    [] Yes, Self Identify: _________________
     [] No
     [] Prefer not to answer
 
