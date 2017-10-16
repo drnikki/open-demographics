@@ -43,7 +43,7 @@
     [] Androgynous
     [] Androgyne
     [] Prefer not to answer
-    [___________] Self-identify
+    [] Self Identify: _________________
 
 
 ### Rationale
