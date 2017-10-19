@@ -3,10 +3,12 @@
     Do you consider yourself to be transgender?
     () Yes
     () No
+    () Questioning
 
     Do you consider yourself to be gender non-conforming, gender diverse, gender varient, or gender expansive?
     () Yes
     () No
+    () Questioning
 
     Are you intersex?
     () Yes
