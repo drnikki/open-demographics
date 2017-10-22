@@ -11,6 +11,7 @@
     Are you intersex?
     () Yes
     () No
+    () I don't know
 
     Where do you identify on the gender spectrum (check all that apply)?
     [] Woman
