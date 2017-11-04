@@ -26,4 +26,5 @@ You can see a list of current contributors here:
 
 
 .. todo::
-  make the formatting of Contributors include not look terrible
+  - make the formatting of Contributors include not look terrible
+  - include all of the good advice here: https://mozillascience.github.io/working-open-workshop/contributing/
