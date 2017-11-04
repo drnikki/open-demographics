@@ -2,8 +2,10 @@
 Q: Socioeconomic class
 ---------------------------
 
+The Question
+.......................................
 ::
-
+  
       Thinking about your childhood, which socio-economic class did you identify with?
       () Working class
       () Lower middle class
@@ -15,5 +17,3 @@ Q: Socioeconomic class
       () Lower middle class
       () Upper middle class
       () Upper class
-
-Other information here
