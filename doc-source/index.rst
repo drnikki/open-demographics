@@ -10,19 +10,14 @@ I AM AN INDEX
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :glob:
 
-   categories_and_defintions
-   data_standard_template
    overview
    get_involved
+   todos
+   questions/*
+   references/*
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
-
-.. todolist::
+.. todo::
+   - can I include the label of a folder to separate the TOC items.
