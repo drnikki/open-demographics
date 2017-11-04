@@ -2,7 +2,7 @@
 Categories & Definitions reference lists
 ------------------------------------------------------
 
-### Guiding questions
+Guiding questions
 .......................................
 1. Should we ask race, ethnicity, culture, and/or nationality?
 2. What _questions_ does asking about this information _answer_

@@ -3,8 +3,9 @@ Get Involved
 ---------------------------
 
 
-You can see a list of current contributors here:
 
+
+You can see a list of current contributors here:
 
 .. literalinclude:: ../CONTRIBUTORS
     :language: text
