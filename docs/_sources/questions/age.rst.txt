@@ -24,10 +24,14 @@ Short Question
 .......................................
 
 ::
-  
+
         How old are you?
             () 0-19
             () 20-39
             () 40-60
             () 61+
             () Prefer not to answer
+
+
+.. todo::
+  - put "create issue about this page" link the the footer of every question
