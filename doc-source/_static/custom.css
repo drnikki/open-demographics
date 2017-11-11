@@ -1,0 +1,22 @@
+div.sphinxsidebar h1 > a{
+font-size: 22px;
+}
+
+
+div.sphinxsidebar h3,
+div.sphinxsidebar h4 {
+    font-size: 20px;
+}
+
+/** the headers are TOO BIG **/
+div.body h1 {
+    font-size: 200%
+}
+
+div.body h2 {
+  font-size: 130%
+}
+
+div.body h2 {
+  font-size: 110%
+}

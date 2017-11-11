@@ -1,1 +1,10 @@
-/* This file intentionally left blank. */
+div.sphinxsidebar {
+    width: 220px;
+    font-size: .5em;
+    line-height: 1.5;
+}
+
+div.sphinxsidebar h3,
+div.sphinxsidebar h4 {
+    font-size: 20px;
+}
