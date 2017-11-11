@@ -40,7 +40,7 @@ Full Contents
 
 .. toctree::
     :glob:
-    
+
     overview
     get_involved
     todos
