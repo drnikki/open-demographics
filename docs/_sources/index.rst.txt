@@ -21,6 +21,19 @@ What's the point?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Part of the challenge with measuring "diversity" in an open-source community is the very poor data from community to community.  If we can standardize the questions that we use, the answers (or range of answers) can be valid across communities.
 
+Who is this for?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+This repository, and the questions it contains, are designed for (mostly open source) communities that want to know about the demographic makeup of community members.  It was specifically created by and for open source software communities but could be used by any group that wants to ask its members questions.
+
+How do I use it?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The questions in this repo are set up each as their own file.   If you find yourself thinking - "I wonder where most of our community members live?" or "I wonder if the gender makeup of my community  matches the average in my country" - these questions can help you answer that.
+
+These questions are *especially* useful if you're trying to measure changes to your community over time.
+
+There is no technical component to this product.  We're not making any explicit recommendations about how to administer the survey (like Google Forms or SurveyMonkey).  If you want to use the question, all you have to do is copy it and use it in your survey.  If you do use the questions, and would like to give us feedback on the quality of the data you received, please do!  WE're always worknig to make these questions better.
+
+
 What do we need?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 This project isn't ethically complete - I have concerns about storing this data along side a user,s federated identity. As one example, it's possible that people identify as LGBTQIA but are not or cannot be public about that for  Reasons.  Thus, in its current state, it is not a recommendation for storage, only for the text of questions and some variations depending on level of detail.
@@ -41,7 +54,6 @@ Full Contents
 .. toctree::
     :glob:
 
-    overview
     get_involved
     todos
     questions/*

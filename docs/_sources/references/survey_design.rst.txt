@@ -23,15 +23,11 @@ A literature review/evaluation of surveys is given in :cite:`dolnicar_asking_201
 
 
 
-
-
-
 All References
 ^^^^^^^^^^^^^^^^^
 The citation plugin renders the items with links to their academic sources (often paywalled), but you can go straight into the github repository and download every file for which we have a PDF.
 
 .. bibliography:: bibliography/bibliography.bib
-
 
 
 .. todo::
