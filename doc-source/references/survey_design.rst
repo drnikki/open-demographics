@@ -15,6 +15,9 @@ this burgeoning set of identities." :cite:`doan_count_2016`
 
 :cite:`doan_count_2016`:  A lot of written-in identities support the claim that queer identites are in flux and expanding.
 
+:cite:`miller_my_2017`: References the notion that identities (especially as queerness intersects with disability) are also in flux.  See p513
+
+
 The politics of counting
 ..............................
 :cite:`doan_count_2016` (p92) talks about "counting as broadly as possible."  If one can count "broadly," then one can also count narrowly, strictly, partically, etc.  cCounting itself is not a value-netural activity.

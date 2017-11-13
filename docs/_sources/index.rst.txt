@@ -11,7 +11,7 @@ Open Demographics is a recommended set of questions that anyone can use to ask c
 
 Why  did this start?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-When talking about  the makeup of the people in their (open source) community, I hear project leaders say a variation of "I'd like to ask about it but I don't know the right way and I don't want to mess up."
+When talking about the makeup of the people in their (open source) community, project leaders often say a variation of "I'd like to ask about it but I don't know the right way and I don't want to mess up."
 
 So it felt like a logical next step to standardize the ways that we ask questions about peoples' identities and demographic data.
 
@@ -31,7 +31,7 @@ The questions in this repo are set up each as their own file.   If you find your
 
 These questions are *especially* useful if you're trying to measure changes to your community over time.
 
-There is no technical component to this product.  We're not making any explicit recommendations about how to administer the survey (like Google Forms or SurveyMonkey).  If you want to use the question, all you have to do is copy it and use it in your survey.  If you do use the questions, and would like to give us feedback on the quality of the data you received, please do!  WE're always working to make these questions better.
+There is no technical component to this product.  We're not making any explicit recommendations about how to administer the survey (like Google Forms or SurveyMonkey).  If you want to use the question, all you have to do is copy it and use it in your survey.  If you do use the questions, and would like to give us feedback on the quality of the data you received, please do!  We're always working to make these questions better.
 
 
 What do we need?
@@ -56,6 +56,6 @@ Full Contents
     :glob:
 
     get_involved
-    todos
     questions/*
     references/*
+    todos
