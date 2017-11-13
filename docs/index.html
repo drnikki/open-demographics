@@ -64,11 +64,11 @@
 <h2>How do I use it?<a class="headerlink" href="#how-do-i-use-it" title="Permalink to this headline">¶</a></h2>
 <p>The questions in this repo are set up each as their own file.   If you find yourself thinking - “I wonder where most of our community members live?” or “I wonder if the gender makeup of my community  matches the average in my country” - these questions can help you answer that.</p>
 <p>These questions are <em>especially</em> useful if you’re trying to measure changes to your community over time.</p>
-<p>There is no technical component to this product.  We’re not making any explicit recommendations about how to administer the survey (like Google Forms or SurveyMonkey).  If you want to use the question, all you have to do is copy it and use it in your survey.  If you do use the questions, and would like to give us feedback on the quality of the data you received, please do!  WE’re always worknig to make these questions better.</p>
+<p>There is no technical component to this product.  We’re not making any explicit recommendations about how to administer the survey (like Google Forms or SurveyMonkey).  If you want to use the question, all you have to do is copy it and use it in your survey.  If you do use the questions, and would like to give us feedback on the quality of the data you received, please do!  WE’re always working to make these questions better.</p>
 </div>
 <div class="section" id="what-do-we-need">
 <h2>What do we need?<a class="headerlink" href="#what-do-we-need" title="Permalink to this headline">¶</a></h2>
-<p>This project isn’t ethically complete - I have concerns about storing this data along side a user,s federated identity. As one example, it’s possible that people identify as LGBTQIA but are not or cannot be public about that for  Reasons.  Thus, in its current state, it is not a recommendation for storage, only for the text of questions and some variations depending on level of detail.</p>
+<p>This project isn’t ethically complete - I have concerns about storing this data along side a user’s federated identity. As one example, it’s possible that people identify as LGBTQIA but are not or cannot be public about that for Reasons.  Thus, in its current state, it is not a recommendation for storage, only for the text of questions and some variations depending on level of detail.</p>
 </div>
 <div class="section" id="further-plans">
 <h2>Further plans<a class="headerlink" href="#further-plans" title="Permalink to this headline">¶</a></h2>
@@ -83,21 +83,39 @@
 </div>
 <div class="section" id="full-contents">
 <h2>Full Contents<a class="headerlink" href="#full-contents" title="Permalink to this headline">¶</a></h2>
+<p>(still configuring this doc generator, so for now, everything has to be included below to make the nav on the left work properly. Does someone know how to get around this?)</p>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="get_involved.html">Get Involved</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="get_involved.html#how-to-get-involved">How to get involved</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="get_involved.html#fork-change-pr">Fork/Change/PR</a></li>
-<li class="toctree-l3"><a class="reference internal" href="get_involved.html#add-comments">Add Comments</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="get_involved.html#how-to-get-involved">How to get involved</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get_involved.html#fork-change-pr">Fork/Change/PR</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get_involved.html#add-comments">Add Comments</a></li>
 <li class="toctree-l2"><a class="reference internal" href="get_involved.html#current-contributors">Current Contributors</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="todos.html">Todo List</a></li>
 <li class="toctree-l1"><a class="reference internal" href="questions/age.html">Q: Age</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="questions/age.html#long-question">Long Question</a></li>
-<li class="toctree-l2"><a class="reference internal" href="questions/age.html#short-question">Short Question</a></li>
+<li class="toctree-l2"><a class="reference internal" href="questions/age.html#the-question">The Question</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="questions/age.html#full-text-of-the-question-prompt">Full text of the question prompt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="questions/age.html#full-list-of-responses">Full list of responses</a></li>
+<li class="toctree-l3"><a class="reference internal" href="questions/age.html#questions-this-can-help-you-answer">Questions this can help you answer</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="questions/age.html#the-rationale">The Rationale</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="questions/age.html#further-reading">Further reading</a></li>
+<li class="toctree-l3"><a class="reference internal" href="questions/age.html#thoughts-for-including">Thoughts for including</a></li>
+<li class="toctree-l3"><a class="reference internal" href="questions/age.html#thoughts-for-excluding">Thoughts for excluding</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="questions/age.html#technical-notes">Technical Notes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="questions/age.html#recommended-data-storage-format">Recommended data storage format</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="questions/age.html#ethical-concerns">Ethical concerns</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="questions/age.html#identifiable">Identifiable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="questions/age.html#ethical-considerations">Ethical Considerations</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="questions/disability.html">Q: Disability</a><ul>
@@ -189,10 +207,13 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="references/survey_design.html">Survey Design References</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="references/survey_design.html#researching-queer-identities">Researching queer identities</a></li>
-<li class="toctree-l2"><a class="reference internal" href="references/survey_design.html#the-politics-of-counting">The politics of counting</a></li>
-<li class="toctree-l2"><a class="reference internal" href="references/survey_design.html#when-writing-questions">When writing questions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="references/survey_design.html#all-references">All References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="references/survey_design.html#researching-queer-identities">Researching queer identities</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="references/survey_design.html#the-politics-of-counting">The politics of counting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="references/survey_design.html#when-writing-questions">When writing questions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="references/survey_design.html#useful-frequency-categories">Useful frequency categories</a></li>
+<li class="toctree-l3"><a class="reference internal" href="references/survey_design.html#all-references">All References</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>

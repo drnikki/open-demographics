@@ -5,7 +5,7 @@ Q: Disability
 The Question
 .......................................
 ::
-  
+
       Do you identify as having a disability as defined under the [Americans with Disabilities Act](https://adata.org/faq/what-definition-disability-under-ada)?
       [] Yes, Cognitive
       [] Yes, Emotional

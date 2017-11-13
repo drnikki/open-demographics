@@ -3,7 +3,7 @@ Get Involved
 ---------------------------
 
 How to get involved
-.......................................
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The `issue queue <https://github.com/drnikki/open-demographics/issues/>`_ is a great place to start.  There are a few ways to get started:
 
 Fork/Change/PR
@@ -17,7 +17,7 @@ The *most valuable* contributions from people are their ideas. Look through our 
 
 
 Current Contributors
-.......................................
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 You can see a list of current contributors here:
 
 .. literalinclude:: ../CONTRIBUTORS

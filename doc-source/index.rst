@@ -31,12 +31,12 @@ The questions in this repo are set up each as their own file.   If you find your
 
 These questions are *especially* useful if you're trying to measure changes to your community over time.
 
-There is no technical component to this product.  We're not making any explicit recommendations about how to administer the survey (like Google Forms or SurveyMonkey).  If you want to use the question, all you have to do is copy it and use it in your survey.  If you do use the questions, and would like to give us feedback on the quality of the data you received, please do!  WE're always worknig to make these questions better.
+There is no technical component to this product.  We're not making any explicit recommendations about how to administer the survey (like Google Forms or SurveyMonkey).  If you want to use the question, all you have to do is copy it and use it in your survey.  If you do use the questions, and would like to give us feedback on the quality of the data you received, please do!  WE're always working to make these questions better.
 
 
 What do we need?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-This project isn't ethically complete - I have concerns about storing this data along side a user,s federated identity. As one example, it's possible that people identify as LGBTQIA but are not or cannot be public about that for  Reasons.  Thus, in its current state, it is not a recommendation for storage, only for the text of questions and some variations depending on level of detail.
+This project isn't ethically complete - I have concerns about storing this data along side a user's federated identity. As one example, it's possible that people identify as LGBTQIA but are not or cannot be public about that for Reasons.  Thus, in its current state, it is not a recommendation for storage, only for the text of questions and some variations depending on level of detail.
 
 Further plans
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -50,6 +50,7 @@ Please get involved in our `github repository <https://github.com/drnikki/open-d
 
 Full Contents
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(still configuring this doc generator, so for now, everything has to be included below to make the nav on the left work properly. Does someone know how to get around this?)
 
 .. toctree::
     :glob:
