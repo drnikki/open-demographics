@@ -35,7 +35,7 @@ The Question
         [] Demi-gender
         [] Bigender
         [] Trigender
-	      [] Two Spirit
+	[] Two Spirit
         [] Multigender/polygender
         [] Pangender/omnigender
         [] Maxigender
