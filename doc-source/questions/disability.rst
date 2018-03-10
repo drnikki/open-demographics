@@ -6,7 +6,7 @@ The Question
 ^^^^^^^^^^^^^^^^^
 ::
 
-      Do you identify as a person with a disability? For the purpose of this survey we define disability as a long-term physical, mental,       intellectual or sensory impairment which, in interaction with various attitudinal and environmental barriers, hinders your full and       effective participation in society on an equal basis with others.
+      Do you identify as a person with a disability? For the purpose of this survey we define disability as a long-term physical, mental,       intellectual or sensory impairment which, in interaction with various attitudinal and environmental barriers, hinders your full and       effective participation in society on an equal basis with others.        (http://www.un.org/disabilities/documents/convention/convention_accessible_pdf.pdf See Article 1 on Page 3)
 
       [] Yes
       [] No
