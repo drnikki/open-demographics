@@ -19,6 +19,10 @@ The Question
         [] White
         [] Self Identify: _________________
         [] Prefer not to answer
+        
+        Do you identify yourself as a member of a minority group in the area you live?
+        [] No
+        [] Yes (Please specify): _________________
 
 
 
