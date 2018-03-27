@@ -23,4 +23,4 @@ This project isn't ethically complete - I have concerns about storing this data 
 - Make this survey less US-centric and provide translations and additional questions appropriate for other countries.
 - Get more contributors
 
-Please get involved in our [github repository](https://github.com/drnikki/open-demographics/)!
+Please get involved in improving our [website](https://drnikki.github.io/open-demographics/) via our [github repository](https://github.com/drnikki/open-demographics/)!
