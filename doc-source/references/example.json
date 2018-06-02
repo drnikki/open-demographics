@@ -8,9 +8,9 @@
              "self-identify": "false",
              "prompt": "How old are you?",
              "choices": [
-               { "value": "0-19", "label": "0 - 19" },
-               { "value": "20-39", "label": "20 - 39" },
-               { "value": "decline", "label": "Prefer not to answer" }
+               { "id": "019", "value": "0-19", "label": "0 - 19" },
+               { "id": "2039", "value": "20-39", "label": "20 - 39" },
+               { "id": "age-decline", "value": "decline", "label": "Prefer not to answer" }
                ]
              }
        }
@@ -46,14 +46,14 @@
                    "self-identify": "true",
                    "prefer-not-to-answer": "true",
                    "choices": [
-                     { "value": "cognitive", "label": "Yes, Cognitive" },
-                     { "value": "emotional", "label": "Yes, Emotional" },
-                     { "value": "hearing", "label": "Yes, Hearing" },
-                     { "value": "mental", "label": "Yes, Mental" },
-                     { "value": "physical", "label": "Yes, Physical" },
-                     { "value": "visual", "label": "Yes, Visual" },
-                     { "value": "no", "label": "No" },
-                     { "value": "decline", "label": "Prefer not to answer" }
+                     { "id": "d-cog", "value": "cognitive", "label": "Yes, Cognitive" },
+                     { "id": "d-emo", "value": "emotional", "label": "Yes, Emotional" },
+                     { "id": "d-h", "value": "hearing", "label": "Yes, Hearing" },
+                     { "id": "idsarehard", "value": "mental", "label": "Yes, Mental" },
+                     { "id": "shouldthesebenumbers?", "value": "physical", "label": "Yes, Physical" },
+                     { "id": "d-cog", "value": "visual", "label": "Yes, Visual" },
+                     { "id": "d-cog", "value": "no", "label": "No" },
+                     { "id": "d-cog", "value": "decline", "label": "Prefer not to answer" }
                      ]
                  },
                  "disability-impact-work": {
