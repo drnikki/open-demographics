@@ -1,0 +1,70 @@
+{
+"some-kind-of-category-id?": {
+       "id": "age",
+       "short-description": "The age of the person",
+       "question": {
+           "id-of-this-single-question-in-this-category" : {
+             "type":"select-one",
+             "self-identify": "false",
+             "prompt": "How old are you?",
+             "choices": [
+               { "value": "0-19", "label": "0 - 19" },
+               { "value": "20-39", "label": "20 - 39" },
+               { "value": "decline", "label": "Prefer not to answer" }
+               ]
+             }
+       }
+   },
+   "a-second-kind-of-category-id?": {
+          "id": "religion",
+          "short-description": "Religious minority status",
+          "long-description": "This might contain text about how this data could be used, external references, etc etc.",
+          "questions": {
+              "do-you-practice-a-religion": {
+                "type": "boolean",
+                "prompt": "Do you practice, worship, or observe a particular religion (or agnostic/atheist theology)?",
+                "self-identify": "false",
+                "does-not-apply": "false"
+              },
+              "do-you-identify-as-religious-minority": {
+                "type": "boolean",
+                "prompt": "Do you identify as a minority because of your religion (or lack thereof)?",
+                "self-identify": "false",
+                "does-not-apply": "true"
+              }
+
+          }
+      },
+      "a-third-kind-of-category-id?": {
+             "id": "disability",
+             "short-description": "This might be recommended question set wrapper text.",
+             "long-description": "This might contain text about how this data could be used, external references, etc etc.",
+             "questions": {
+                 "do-you-have-disability": {
+                   "type": "select-multiple",
+                   "prompt": "Do you identify as having a disability as defined under the [Americans with Disabilities Act](https://adata.org/faq/what-definition-disability-under-ada)?",
+                   "self-identify": "true",
+                   "prefer-not-to-answer": "true",
+                   "choices": [
+                     { "value": "cognitive", "label": "Yes, Cognitive" },
+                     { "value": "emotional", "label": "Yes, Emotional" },
+                     { "value": "hearing", "label": "Yes, Hearing" },
+                     { "value": "mental", "label": "Yes, Mental" },
+                     { "value": "physical", "label": "Yes, Physical" },
+                     { "value": "visual", "label": "Yes, Visual" },
+                     { "value": "no", "label": "No" },
+                     { "value": "decline", "label": "Prefer not to answer" }
+                     ]
+                 },
+                 "disability-impact-work": {
+                   "type": "boolean",
+                   "prompt": "Does your disability affect how you work?",
+                   "self-identify": "false",
+                   "does-not-apply": "true",
+                   "prefer-not-to-answer": "true"
+                 }
+
+             }
+         }
+
+}
