@@ -1,0 +1,783 @@
+// This source file was used with http://www.objgen.com/json to generate proper JSON format
+category-age
+  id = age
+  short-description = Age of the person.
+  long-description = The age bracket of the respondent.
+  questions
+    how-old
+      type = select-one
+      self-identify = false
+      prefer-not-to-answer = true
+      does-not-apply = true
+      prompt = How old are you?
+      choices 
+        full-set [0]
+          id = 0-15
+          value = 0-15
+          label = 0 - 15
+        full-set [1]
+          id = 15-19
+          value = 15-19
+          label = 15 - 19
+        full-set [2]
+           id = 20-24
+           value = 20-24
+           label = 20 - 24
+        full-set [3]
+           id = 25-29
+           value = 25-29
+           label = 25 - 29
+        full-set [4]
+           id = 30-39
+           value = 30-39
+           label = 30 - 39
+        full-set [5]
+           id = 40-49
+           value = 40-49
+           label = 40 - 49
+        full-set [6]
+           id = 50-59
+           value = 50-59
+           label = 50 - 59
+        full-set [7]
+           id = 60-69
+           value = 60-69
+           label = 60 - 69
+        full-set [8]
+           id = 70-79
+           value = 70-79
+           label = 70 - 79
+        full-set [9]
+           id = 80+
+           value = 80+
+           label = 80+
+        full-set [10]
+           id = prefer-not-to-answer
+           value = prefer-not-to-answer
+           label = Prefer not to answer
+        short-set [0]
+          id = 0-19
+          value = 0-19
+          label = 0 - 19
+        short-set [1]
+          id = 20-39
+          value = 20-39
+          label = 20 - 39
+        short-set [2]
+          id = 40-60
+          value = 40-60
+          label = 40 - 60
+        short-set [3]
+          id = 61+
+          value = 61+
+          label = 61+
+        short-set [4]
+           id = prefer-not-to-answer
+           value = prefer-not-to-answer
+           label = Prefer not to answer
+category-disability
+  id = disability
+  short-description = The person's disabilities.
+  long-description = The disabilities a person identifies as having based on the definitions given by the ADA.
+  questions
+    identified-disability
+      type = select-multiple
+      self-identify = true
+      prefer-not-to-answer = true
+      does-not-apply = true
+      prompt = Do you identify as having a disability as defined under the Americans with Disabilities Act - https://adata.org/faq/what-definition-disability-under-ada?
+      choices
+        full-set [0]
+          id = d-cog
+          value = cognitive
+          label = Yes, Cognitive
+        full-set [1]
+           id = d-emo
+           value = emotional
+           label = Yes, Emotional
+        full-set [2]
+           id = d-hea
+           value = hearing
+           label = Yes, Hearing
+        full-set [3]
+           id = d-men
+           value = mental
+           label = Yes, Mental
+        full-set [4]
+           id = d-phy
+           value = physical
+           label = Yes, Physical
+        full-set [5]
+           id = d-vis
+           value = 50-59
+           label = 50 - 59
+        full-set [6]
+           id = d-sel
+           value = 60-69
+           label = 60 - 69
+        full-set [7]
+           id = d-no
+           value = no
+           label = No
+        full-set [8]
+           id = prefer-not-to-answer
+           value = prefer-not-to-answer
+           label = Prefer not to answer
+    affects-work
+      type = select-one
+      self-identify = false
+      prefer-not-to-answer = true
+      does-not-apply = true
+      prompt = Does your disability affect how you work?
+      choices     
+        full-set [0]
+          id = yes
+          value = yes
+          label = Yes
+        full-set [1]
+          id = no
+          value = no
+          label = No
+        full-set [2]
+           id = prefer-not-to-answer
+           value = prefer-not-to-answer
+           label = Prefer not to answer
+        full-set [3]
+           id = does-not-apply
+           value = does-not-apply
+           label = Does not apply
+category-education
+  id = education
+  short-description = The person's education
+  long-description = The respondent's highest level of educational attainment.
+  questions
+    education-level
+      type = select-one
+      self-identify = false
+      prefer-not-to-answer = true
+      does-not-apply = false
+      prompt = What is your education level? 
+      choices
+        full-set [0]
+          id = e-high
+          value = high-school
+          label = Some high school
+        full-set [1]
+           id = e-coll-tech
+           value = college-tech
+           label = Some college/technical training
+        full-set [2]
+           id = e-college
+           value = college-complete
+           label = Completed college
+        full-set [3]
+           id = e-masters
+           value = masters
+           label = Completed master's degree
+        full-set [4]
+           id = e-phd
+           value = phd
+           label = Completed Ph.D
+        full-set [5]
+           id = prefer-not-to-answer
+           value = prefer-not-to-answer
+           label = Prefer not to answer
+category-gender
+  id = gender
+  short-description = The person's gender identity.
+  long-description = The respondent's gender identification.
+  questions
+    transgender-identity
+      type = select-one
+      self-identify = false
+      prefer-not-to-answer = false
+      does-not-apply = false
+      prompt = Do you consider yourself to be transgender? 
+      choices
+        full-set [0]
+          id = yes
+          value = yes
+          label = Yes
+        full-set [1]
+           id = no
+           value = no
+           label = No
+        full-set [2]
+           id = questioning
+           value = questioning
+           label = Questioning
+    gender-diversity
+      type = select-one
+      self-identify = false
+      prefer-not-to-answer = false
+      does-not-apply = false
+      prompt = Do you consider yourself to be gender non-conforming, gender diverse, gender variant, or gender expansive? 
+      choices
+        full-set [0]
+          id = yes
+          value = yes
+          label = Yes
+        full-set [1]
+           id = no
+           value = no
+           label = No
+        full-set [2]
+           id = questioning
+           value = questioning
+           label = Questioning
+    intersex
+      type = select-one
+      self-identify = false
+      prefer-not-to-answer = false
+      does-not-apply = false
+      prompt = Are you intersex? 
+      choices
+        full-set [0]
+          id = yes
+          value = yes
+          label = Yes
+        full-set [1]
+           id = no
+           value = no
+           label = No
+        full-set [2]
+           id = dont-know
+           value = dont-know
+           label = I don't know
+    gender-spectrum
+      type = select-multiple
+      self-identify = true
+      prefer-not-to-answer = true
+      does-not-apply = false
+      prompt = Where do you identify on the gender spectrum (check all that apply)?
+      choices
+        full-set [0]
+          id = agender-genderless
+          value = agender-genderless
+          label = Agender/genderless
+        full-set [1]
+           id = androgyne
+           value = androgyne
+           label = Androgyne
+        full-set [2]
+           id = androgynous
+           value = androgynous
+           label = Androgynous
+        full-set [3]
+           id = aporagender
+           value = aporagender
+           label = Aporagender
+        full-set [4]
+           id = bigender
+           value = bigender
+           label = Bigender
+        full-set [5]
+           id = demi-agender
+           value = demi-agender
+           label = Demi-agender
+        full-set [6]
+           id = demi-boy
+           value = demi-boy
+           label = Demi-boy
+        full-set [7]
+           id = demi-fluid
+           value = demi-fluid
+           label = Demi-fluid
+        full-set [8]
+           id = demi-gender
+           value = demi-gender
+           label = Demi-gender
+        full-set [9]
+           id = demi-girl
+           value = demi-girl
+           label = Demi-girl
+        full-set [10]
+           id = demi-non-binary
+           value = demi-non-binary
+           label = Demi-non-binary
+        full-set [11]
+           id = gender-confusion
+           value = gender-confusion
+           label = Gender confusion/Gender f*ck
+        full-set [12]
+           id = gender-indifferent
+           value = gender-indifferent
+           label = Gender indifferent
+        full-set [13]
+           id = gender-neutral
+           value = gender-neutral
+           label = Gender neutral
+        full-set [14]
+           id = genderfluid
+           value = genderfluid
+           label = Genderfluid
+        full-set [15]
+           id = genderflux
+           value = genderflux
+           label = Genderflux
+        full-set [16]
+           id = genderless
+           value = genderless
+           label = Genderless
+        full-set [17]
+           id = genderqueer
+           value = genderqueer
+           label = Genderqueer
+        full-set [18]
+           id = graygender
+           value = graygender
+           label = Graygender
+        full-set [19]
+           id = intergender
+           value = intergender
+           label = Intergender
+        full-set [20]
+           id = man
+           value = man
+           label = Man
+        full-set [22]
+           id = maverique
+           value = maverique
+           label = Maverique
+        full-set [23]
+           id = maxigender
+           value = maxigender
+           label = Maxigender
+        full-set [24]
+           id = multigender-polygender
+           value = multigender-polygender
+           label = Multigender/Polygender
+        full-set [25]
+           id = neutrois
+           value = neutrois
+           label = Neutrois
+        full-set [26]
+           id = non-binary
+           value = non-binary
+           label = Non-binary
+        full-set [27]
+           id = pangender-omnigender
+           value = pangender-omnigender
+           label = Pangender/omnigender
+        full-set [28]
+           id = trigender
+           value = trigender
+           label = Trigender
+        full-set [29]
+           id = woman
+           value = woman
+           label = Woman
+        full-set [30]
+           id = self-identify
+           value = self-identify
+           label = Self Identify:
+        full-set [31]
+           id = prefer-not-to-answer
+           value = prefer-not-to-answer
+           label = Prefer not to answer
+category-language
+  id = language
+  short-description = The person's languages.
+  long-description = The respondent's languages and fluency levels. 
+  questions
+    languages
+      type = double-select
+      self-identify = false
+      prefer-not-to-answer = false
+      does-not-apply = false
+      prompt = Choose the language(s) you are conversant in and identify your proficiency 
+      choices
+        language-known [0]
+          id = language
+          value = language
+          label = Language:
+        fluency [0]
+           id = elementary-basic
+           value = elementary-basic
+           label = Elementary Proficiency / Basic
+        fluency [1]
+           id = limited-working
+           value = limited-working
+           label = Limited Working Proficiency / Conversational
+        fluency [2]
+           id = professional-working
+           value = professional-working
+           label = Professional Working Proficiency / Business
+        fluency [3]
+           id = full-fluent
+           value = full-fluent
+           label = Full Professional Proficiency / Fluent
+category-location
+  id = location
+  short-description = The person's location.
+  long-description = The respondent's country of residence and local environment.
+  questions
+    country
+      type = country
+      self-identify = false
+      prefer-not-to-answer = false
+      does-not-apply = false
+      prompt = Please choose your country of residence 
+    local-environment
+      type = select-one
+      self-identify = false
+      prefer-not-to-answer = false
+      does-not-apply = false
+      prompt = Which word best describes the area where you live and work?
+      choices
+        full-set [0]
+           id = rural
+           value = rural
+           label = Rural
+        full-set [1]
+           id = suburban
+           value = suburban
+           label = Suburban
+        full-set [2]
+           id = urban
+           value = urban
+           label = Urban
+category-race
+  id = race
+  short-description = The person's race.
+  long-description = The respondent's racial/ethnic background.
+  questions
+    poc-identity
+      type = select-one
+      self-identify = false
+      prefer-not-to-answer = false
+      does-not-apply = false
+      prompt = Do you identify as a person of color?
+      choices
+        full-set [0]
+          id = yes
+          value = yes
+          label = Yes
+        full-set [1]
+          id = no
+          value = no
+          label = No
+    racial-identity
+      type = select-multiple
+      self-identify = true
+      prefer-not-to-answer = true
+      does-not-apply = false
+      prompt = With which racial background(s) do you identify? (check all that apply)
+      choices
+        full-set [0]
+           id = asian
+           value = asian
+           label = Asian
+        full-set [1]
+           id = black
+           value = black
+           label = Black
+        full-set [2]
+           id = latino
+           value = latino
+           label = Latino
+        full-set [3]
+           id = native-american
+           value = native-american
+           label = Native American
+        full-set [4]
+           id = pacific-islander
+           value = pacific-islander
+           label = Pacific Islander
+        full-set [5]
+           id = white
+           value = white
+           label = White
+        full-set [6]
+           id = self-identify
+           value = self-identify
+           label = Self Identify:
+        full-set [7]
+           id = prefer-not-to-answer
+           value = prefer-not-to-answer
+           label = Prefer not to answer
+category-religion
+  id = religion
+  short-description = The person's religious beliefs.
+  long-description = The respondent's religious beliefs and identification.
+  questions
+    practicing
+      type = select-one
+      self-identify = false
+      prefer-not-to-answer = false
+      does-not-apply = false
+      prompt = Do you practice, worship, or observe a particular religion (or agnostic/atheist theology)?
+      choices
+        full-set [0]
+          id = yes
+          value = yes
+          label = Yes
+        full-set [1]
+          id = no
+          value = no
+          label = No
+    religious-minority
+      type = select-one
+      self-identify = false
+      prefer-not-to-answer = false
+      does-not-apply = true
+      prompt = Do you identify as a minority because of your religion (or lack thereof)?
+      choices
+        full-set [0]
+          id = yes
+          value = yes
+          label = Yes
+        full-set [1]
+          id = no
+          value = no
+          label = No
+        full-set [2]
+          id = does-not-apply
+          value = does-not-apply
+          label = Does not apply
+category-socioeconomic
+  id = socioeconomic
+  short-description = The person's socioeconomic class.
+  long-description = The respondent's socioeconomic background and current class.
+  questions
+    class-childhood
+      type = select-one
+      self-identify = false
+      prefer-not-to-answer = false
+      does-not-apply = false
+      prompt = Thinking about your childhood, which socioeconomic class did you identify with?
+      choices
+        full-set [0]
+          id = working
+          value = working
+          label = Working class
+        full-set [1]
+          id = lower-middle
+          value = lower-middle
+          label = Lower middle class
+        full-set [2]
+          id = upper-middle
+          value = upper-middle
+          label = Upper middle class
+        full-set [3]
+          id = upper
+          value = upper
+          label = Upper middle class
+    class-current
+      type = select-one
+      self-identify = false
+      prefer-not-to-answer = false
+      does-not-apply = false
+      prompt = Thinking about your current situation, which socioeconomic class do you identify with?
+      choices
+        full-set [0]
+          id = working
+          value = working
+          label = Working class
+        full-set [1]
+          id = lower-middle
+          value = lower-middle
+          label = Lower middle class
+        full-set [2]
+          id = upper-middle
+          value = upper-middle
+          label = Upper middle class
+        full-set [3]
+          id = upper
+          value = upper
+          label = Upper middle class
+category-sexual-romantic
+  id = sexual-romantic
+  short-description = The person's sexual and romantic orientation.
+  long-description = The respondent's sexual and romantic orientation.
+  questions
+    orientation-sexual
+      type = select-multiple
+      self-identify = true
+      prefer-not-to-answer = true
+      does-not-apply = false
+      prompt = What is your sexual orientation (check all that apply)?
+      choices
+        full-set [0]
+          id = aceflux
+          value = aceflux
+          label = Aceflux
+        full-set [1]
+          id = androgynesexual
+          value = androgynesexual
+          label = androgynesexual
+        full-set [2]
+          id = asexual
+          value = asexual
+          label = Asexual
+        full-set [3]
+          id = autosexual
+          value = autosexual
+          label = Autosexual
+        full-set [4]
+          id = bicurious
+          value = bicurious
+          label = Bicurious
+        full-set [5]
+          id = bisexual
+          value = bisexual
+          label = Bisexual
+        full-set [6]
+          id = demisexual
+          value = demisexual
+          label = Demisexual
+        full-set [7]
+          id = fluid-abrosexual
+          value = fluid-abrosexual
+          label = Fluid/abrosexual
+        full-set [8]
+          id = gay
+          value = gay
+          label = Gay
+        full-set [9]
+          id = graysexual
+          value = graysexual
+          label = Graysexual
+        full-set [10]
+          id = lesbian
+          value = lesbian
+          label = Lesbian
+        full-set [11]
+          id = masexual-androsexual
+          value = masexual-androsexual
+          label = Masexual/androsexual
+        full-set [12]
+          id = omnisexual
+          value = omnisexual
+          label = Omnisexual
+        full-set [13]
+          id = pansexual
+          value = pansexual
+          label = Pansexual
+        full-set [14]
+          id = poly
+          value = poly
+          label = Poly
+        full-set [15]
+          id = queer
+          value = queer
+          label = Queer
+        full-set [16]
+          id = questioning
+          value = questioning
+          label = Questioning
+        full-set [17]
+          id = straight
+          value = straight
+          label = Straight
+        full-set [18]
+          id = trisexual
+          value = trisexual
+          label = Trisexual
+        full-set [19]
+          id = womasexual-gynesexual
+          value = womasexual-gynesexual
+          label = Womasexual/gynesexual
+        full-set [6]
+           id = self-identify
+           value = self-identify
+           label = Self Identify:
+        full-set [7]
+           id = prefer-not-to-answer
+           value = prefer-not-to-answer
+           label = Prefer not to answer
+    orientation-romantic
+      type = select-multiple
+      self-identify = true
+      prefer-not-to-answer = true
+      does-not-apply = false
+      prompt = What is your romantic orientation (check all that apply)?
+      choices
+        full-set [0]
+          id = androgyneromantic
+          value = androgyneromantic
+          label = Androgyneromantic
+        full-set [1]
+          id = arowflux
+          value = aroflux
+          label = aroflux
+        full-set [2]
+          id = aromantic
+          value = aromantic
+          label = Aromantic
+        full-set [3]
+          id = autoromantic
+          value = autoromantic
+          label = Autoromantic
+        full-set [4]
+          id = bicurious
+          value = bicurious
+          label = Bicurious
+        full-set [5]
+          id = biromantic
+          value = biromantic
+          label = biromantic
+        full-set [6]
+          id = demiromantic
+          value = demiromantic
+          label = Demiromantic
+        full-set [7]
+          id = fluid-abroromantic
+          value = fluid-abroromantic
+          label = Fluid/abroromantic
+        full-set [8]
+          id = gay
+          value = gay
+          label = Gay
+        full-set [9]
+          id = grayromantic
+          value = grayromantic
+          label = Grayromantic
+        full-set [10]
+          id = lesbian
+          value = lesbian
+          label = Lesbian
+        full-set [11]
+          id = manromantic-androromantic
+          value = manromantic-androromantic
+          label = Manromantic/androromantic
+        full-set [12]
+          id = omniromantic
+          value = omniromantic
+          label = Omniromantic
+        full-set [13]
+          id = panromantic
+          value = panromantic
+          label = Panromantic
+        full-set [14]
+          id = poly
+          value = poly
+          label = Poly
+        full-set [15]
+          id = queer
+          value = queer
+          label = Queer
+        full-set [16]
+          id = questioning
+          value = questioning
+          label = Questioning
+        full-set [17]
+          id = straight
+          value = straight
+          label = Straight
+        full-set [18]
+          id = triromantic
+          value = triromantic
+          label = triromantic
+        full-set [19]
+          id = womanromantic-gyneromantic
+          value = womanromantic-gyneromantic
+          label = Womanromantic/gyneromantic
+        full-set [6]
+           id = self-identify
+           value = self-identify
+           label = Self Identify:
+        full-set [7]
+           id = prefer-not-to-answer
+           value = prefer-not-to-answer
+           label = Prefer not to answer

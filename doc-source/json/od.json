@@ -1,24 +1,1011 @@
 {
-  "age-category": {
+  "category-age": {
     "id": "age",
-    "short-description": "age of the person",
+    "short-description": "Age of the person.",
+    "long-description": "The age bracket of the respondent.",
     "questions": {
       "how-old": {
         "type": "select-one",
         "self-identify": "false",
+        "prefer-not-to-answer": "true",
+        "does-not-apply": "true",
         "prompt": "How old are you?",
-        "choices": [
-          {
-            "id": "0-19",
-            "value": "0-19",
-            "label": "0 - 19"
-          },
-          {
-            "id": "0-19",
-            "value": "0-19",
-            "label": "0 - 19"
-          }
-        ]
+        "choices": {
+          "full-set": [
+            {
+              "id": "0-15",
+              "value": "0-15",
+              "label": "0 - 15"
+            },
+            {
+              "id": "15-19",
+              "value": "15-19",
+              "label": "15 - 19"
+            },
+            {
+              "id": "20-24",
+              "value": "20-24",
+              "label": "20 - 24"
+            },
+            {
+              "id": "25-29",
+              "value": "25-29",
+              "label": "25 - 29"
+            },
+            {
+              "id": "30-39",
+              "value": "30-39",
+              "label": "30 - 39"
+            },
+            {
+              "id": "40-49",
+              "value": "40-49",
+              "label": "40 - 49"
+            },
+            {
+              "id": "50-59",
+              "value": "50-59",
+              "label": "50 - 59"
+            },
+            {
+              "id": "60-69",
+              "value": "60-69",
+              "label": "60 - 69"
+            },
+            {
+              "id": "70-79",
+              "value": "70-79",
+              "label": "70 - 79"
+            },
+            {
+              "id": "80+",
+              "value": "80+",
+              "label": "80+"
+            },
+            {
+              "id": "prefer-not-to-answer",
+              "value": "prefer-not-to-answer",
+              "label": "Prefer not to answer"
+            }
+          ],
+          "short-set": [
+            {
+              "id": "0-19",
+              "value": "0-19",
+              "label": "0 - 19"
+            },
+            {
+              "id": "20-39",
+              "value": "20-39",
+              "label": "20 - 39"
+            },
+            {
+              "id": "40-60",
+              "value": "40-60",
+              "label": "40 - 60"
+            },
+            {
+              "id": "61+",
+              "value": "61+",
+              "label": "61+"
+            },
+            {
+              "id": "prefer-not-to-answer",
+              "value": "prefer-not-to-answer",
+              "label": "Prefer not to answer"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "category-disability": {
+    "id": "disability",
+    "short-description": "The person's disabilities.",
+    "long-description": "The disabilities a person identifies as having based on the definitions given by the ADA.",
+    "questions": {
+      "identified-disability": {
+        "type": "select-multiple",
+        "self-identify": "true",
+        "prefer-not-to-answer": "true",
+        "does-not-apply": "true",
+        "prompt": "Do you identify as having a disability as defined under the Americans with Disabilities Act - https://adata.org/faq/what-definition-disability-under-ada?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "d-cog",
+              "value": "cognitive",
+              "label": "Yes, Cognitive"
+            },
+            {
+              "id": "d-emo",
+              "value": "emotional",
+              "label": "Yes, Emotional"
+            },
+            {
+              "id": "d-hea",
+              "value": "hearing",
+              "label": "Yes, Hearing"
+            },
+            {
+              "id": "d-men",
+              "value": "mental",
+              "label": "Yes, Mental"
+            },
+            {
+              "id": "d-phy",
+              "value": "physical",
+              "label": "Yes, Physical"
+            },
+            {
+              "id": "d-vis",
+              "value": "50-59",
+              "label": "50 - 59"
+            },
+            {
+              "id": "d-sel",
+              "value": "60-69",
+              "label": "60 - 69"
+            },
+            {
+              "id": "d-no",
+              "value": "no",
+              "label": "No"
+            },
+            {
+              "id": "prefer-not-to-answer",
+              "value": "prefer-not-to-answer",
+              "label": "Prefer not to answer"
+            }
+          ]
+        }
+      },
+      "affects-work": {
+        "type": "select-one",
+        "self-identify": "false",
+        "prefer-not-to-answer": "true",
+        "does-not-apply": "true",
+        "prompt": "Does your disability affect how you work?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "yes",
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "id": "no",
+              "value": "no",
+              "label": "No"
+            },
+            {
+              "id": "prefer-not-to-answer",
+              "value": "prefer-not-to-answer",
+              "label": "Prefer not to answer"
+            },
+            {
+              "id": "does-not-apply",
+              "value": "does-not-apply",
+              "label": "Does not apply"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "category-education": {
+    "id": "education",
+    "short-description": "The person's education",
+    "long-description": "The respondent's highest level of educational attainment.",
+    "questions": {
+      "education-level": {
+        "type": "select-one",
+        "self-identify": "false",
+        "prefer-not-to-answer": "true",
+        "does-not-apply": "false",
+        "prompt": "What is your education level?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "e-high",
+              "value": "high-school",
+              "label": "Some high school"
+            },
+            {
+              "id": "e-coll-tech",
+              "value": "college-tech",
+              "label": "Some college/technical training"
+            },
+            {
+              "id": "e-college",
+              "value": "college-complete",
+              "label": "Completed college"
+            },
+            {
+              "id": "e-masters",
+              "value": "masters",
+              "label": "Completed master's degree"
+            },
+            {
+              "id": "e-phd",
+              "value": "phd",
+              "label": "Completed Ph.D"
+            },
+            {
+              "id": "prefer-not-to-answer",
+              "value": "prefer-not-to-answer",
+              "label": "Prefer not to answer"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "category-gender": {
+    "id": "gender",
+    "short-description": "The person's gender identity.",
+    "long-description": "The respondent's gender identification.",
+    "questions": {
+      "transgender-identity": {
+        "type": "select-one",
+        "self-identify": "false",
+        "prefer-not-to-answer": "false",
+        "does-not-apply": "false",
+        "prompt": "Do you consider yourself to be transgender?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "yes",
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "id": "no",
+              "value": "no",
+              "label": "No"
+            },
+            {
+              "id": "questioning",
+              "value": "questioning",
+              "label": "Questioning"
+            }
+          ]
+        }
+      },
+      "gender-diversity": {
+        "type": "select-one",
+        "self-identify": "false",
+        "prefer-not-to-answer": "false",
+        "does-not-apply": "false",
+        "prompt": "Do you consider yourself to be gender non-conforming, gender diverse, gender variant, or gender expansive?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "yes",
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "id": "no",
+              "value": "no",
+              "label": "No"
+            },
+            {
+              "id": "questioning",
+              "value": "questioning",
+              "label": "Questioning"
+            }
+          ]
+        }
+      },
+      "intersex": {
+        "type": "select-one",
+        "self-identify": "false",
+        "prefer-not-to-answer": "false",
+        "does-not-apply": "false",
+        "prompt": "Are you intersex?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "yes",
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "id": "no",
+              "value": "no",
+              "label": "No"
+            },
+            {
+              "id": "dont-know",
+              "value": "dont-know",
+              "label": "I don't know"
+            }
+          ]
+        }
+      },
+      "gender-spectrum": {
+        "type": "select-multiple",
+        "self-identify": "true",
+        "prefer-not-to-answer": "true",
+        "does-not-apply": "false",
+        "prompt": "Where do you identify on the gender spectrum (check all that apply)?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "agender-genderless",
+              "value": "agender-genderless",
+              "label": "Agender/genderless"
+            },
+            {
+              "id": "androgyne",
+              "value": "androgyne",
+              "label": "Androgyne"
+            },
+            {
+              "id": "androgynous",
+              "value": "androgynous",
+              "label": "Androgynous"
+            },
+            {
+              "id": "aporagender",
+              "value": "aporagender",
+              "label": "Aporagender"
+            },
+            {
+              "id": "bigender",
+              "value": "bigender",
+              "label": "Bigender"
+            },
+            {
+              "id": "demi-agender",
+              "value": "demi-agender",
+              "label": "Demi-agender"
+            },
+            {
+              "id": "demi-boy",
+              "value": "demi-boy",
+              "label": "Demi-boy"
+            },
+            {
+              "id": "demi-fluid",
+              "value": "demi-fluid",
+              "label": "Demi-fluid"
+            },
+            {
+              "id": "demi-gender",
+              "value": "demi-gender",
+              "label": "Demi-gender"
+            },
+            {
+              "id": "demi-girl",
+              "value": "demi-girl",
+              "label": "Demi-girl"
+            },
+            {
+              "id": "demi-non-binary",
+              "value": "demi-non-binary",
+              "label": "Demi-non-binary"
+            },
+            {
+              "id": "gender-confusion",
+              "value": "gender-confusion",
+              "label": "Gender confusion/Gender f*ck"
+            },
+            {
+              "id": "gender-indifferent",
+              "value": "gender-indifferent",
+              "label": "Gender indifferent"
+            },
+            {
+              "id": "gender-neutral",
+              "value": "gender-neutral",
+              "label": "Gender neutral"
+            },
+            {
+              "id": "genderfluid",
+              "value": "genderfluid",
+              "label": "Genderfluid"
+            },
+            {
+              "id": "genderflux",
+              "value": "genderflux",
+              "label": "Genderflux"
+            },
+            {
+              "id": "genderless",
+              "value": "genderless",
+              "label": "Genderless"
+            },
+            {
+              "id": "genderqueer",
+              "value": "genderqueer",
+              "label": "Genderqueer"
+            },
+            {
+              "id": "graygender",
+              "value": "graygender",
+              "label": "Graygender"
+            },
+            {
+              "id": "intergender",
+              "value": "intergender",
+              "label": "Intergender"
+            },
+            {
+              "id": "man",
+              "value": "man",
+              "label": "Man"
+            },
+            null,
+            {
+              "id": "maverique",
+              "value": "maverique",
+              "label": "Maverique"
+            },
+            {
+              "id": "maxigender",
+              "value": "maxigender",
+              "label": "Maxigender"
+            },
+            {
+              "id": "multigender-polygender",
+              "value": "multigender-polygender",
+              "label": "Multigender/Polygender"
+            },
+            {
+              "id": "neutrois",
+              "value": "neutrois",
+              "label": "Neutrois"
+            },
+            {
+              "id": "non-binary",
+              "value": "non-binary",
+              "label": "Non-binary"
+            },
+            {
+              "id": "pangender-omnigender",
+              "value": "pangender-omnigender",
+              "label": "Pangender/omnigender"
+            },
+            {
+              "id": "trigender",
+              "value": "trigender",
+              "label": "Trigender"
+            },
+            {
+              "id": "woman",
+              "value": "woman",
+              "label": "Woman"
+            },
+            {
+              "id": "self-identify",
+              "value": "self-identify",
+              "label": "Self Identify:"
+            },
+            {
+              "id": "prefer-not-to-answer",
+              "value": "prefer-not-to-answer",
+              "label": "Prefer not to answer"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "category-language": {
+    "id": "language",
+    "short-description": "The person's languages.",
+    "long-description": "The respondent's languages and fluency levels.",
+    "questions": {
+      "languages": {
+        "type": "double-select",
+        "self-identify": "false",
+        "prefer-not-to-answer": "false",
+        "does-not-apply": "false",
+        "prompt": "Choose the language(s) you are conversant in and identify your proficiency",
+        "choices": {
+          "language-known": [
+            {
+              "id": "language",
+              "value": "language",
+              "label": "Language:"
+            }
+          ],
+          "fluency": [
+            {
+              "id": "elementary-basic",
+              "value": "elementary-basic",
+              "label": "Elementary Proficiency / Basic"
+            },
+            {
+              "id": "limited-working",
+              "value": "limited-working",
+              "label": "Limited Working Proficiency / Conversational"
+            },
+            {
+              "id": "professional-working",
+              "value": "professional-working",
+              "label": "Professional Working Proficiency / Business"
+            },
+            {
+              "id": "full-fluent",
+              "value": "full-fluent",
+              "label": "Full Professional Proficiency / Fluent"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "category-location": {
+    "id": "location",
+    "short-description": "The person's location.",
+    "long-description": "The respondent's country of residence and local environment.",
+    "questions": {
+      "country": {
+        "type": "country",
+        "self-identify": "false",
+        "prefer-not-to-answer": "false",
+        "does-not-apply": "false",
+        "prompt": "Please choose your country of residence"
+      },
+      "local-environment": {
+        "type": "select-one",
+        "self-identify": "false",
+        "prefer-not-to-answer": "false",
+        "does-not-apply": "false",
+        "prompt": "Which word best describes the area where you live and work?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "rural",
+              "value": "rural",
+              "label": "Rural"
+            },
+            {
+              "id": "suburban",
+              "value": "suburban",
+              "label": "Suburban"
+            },
+            {
+              "id": "urban",
+              "value": "urban",
+              "label": "Urban"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "category-race": {
+    "id": "race",
+    "short-description": "The person's race.",
+    "long-description": "The respondent's racial/ethnic background.",
+    "questions": {
+      "poc-identity": {
+        "type": "select-one",
+        "self-identify": "false",
+        "prefer-not-to-answer": "false",
+        "does-not-apply": "false",
+        "prompt": "Do you identify as a person of color?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "yes",
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "id": "no",
+              "value": "no",
+              "label": "No"
+            }
+          ]
+        }
+      },
+      "racial-identity": {
+        "type": "select-multiple",
+        "self-identify": "true",
+        "prefer-not-to-answer": "true",
+        "does-not-apply": "false",
+        "prompt": "With which racial background(s) do you identify? (check all that apply)",
+        "choices": {
+          "full-set": [
+            {
+              "id": "asian",
+              "value": "asian",
+              "label": "Asian"
+            },
+            {
+              "id": "black",
+              "value": "black",
+              "label": "Black"
+            },
+            {
+              "id": "latino",
+              "value": "latino",
+              "label": "Latino"
+            },
+            {
+              "id": "native-american",
+              "value": "native-american",
+              "label": "Native American"
+            },
+            {
+              "id": "pacific-islander",
+              "value": "pacific-islander",
+              "label": "Pacific Islander"
+            },
+            {
+              "id": "white",
+              "value": "white",
+              "label": "White"
+            },
+            {
+              "id": "self-identify",
+              "value": "self-identify",
+              "label": "Self Identify:"
+            },
+            {
+              "id": "prefer-not-to-answer",
+              "value": "prefer-not-to-answer",
+              "label": "Prefer not to answer"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "category-religion": {
+    "id": "religion",
+    "short-description": "The person's religious beliefs.",
+    "long-description": "The respondent's religious beliefs and identification.",
+    "questions": {
+      "practicing": {
+        "type": "select-one",
+        "self-identify": "false",
+        "prefer-not-to-answer": "false",
+        "does-not-apply": "false",
+        "prompt": "Do you practice, worship, or observe a particular religion (or agnostic/atheist theology)?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "yes",
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "id": "no",
+              "value": "no",
+              "label": "No"
+            }
+          ]
+        }
+      },
+      "religious-minority": {
+        "type": "select-one",
+        "self-identify": "false",
+        "prefer-not-to-answer": "false",
+        "does-not-apply": "true",
+        "prompt": "Do you identify as a minority because of your religion (or lack thereof)?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "yes",
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "id": "no",
+              "value": "no",
+              "label": "No"
+            },
+            {
+              "id": "does-not-apply",
+              "value": "does-not-apply",
+              "label": "Does not apply"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "category-socioeconomic": {
+    "id": "socioeconomic",
+    "short-description": "The person's socioeconomic class.",
+    "long-description": "The respondent's socioeconomic background and current class.",
+    "questions": {
+      "class-childhood": {
+        "type": "select-one",
+        "self-identify": "false",
+        "prefer-not-to-answer": "false",
+        "does-not-apply": "false",
+        "prompt": "Thinking about your childhood, which socioeconomic class did you identify with?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "working",
+              "value": "working",
+              "label": "Working class"
+            },
+            {
+              "id": "lower-middle",
+              "value": "lower-middle",
+              "label": "Lower middle class"
+            },
+            {
+              "id": "upper-middle",
+              "value": "upper-middle",
+              "label": "Upper middle class"
+            },
+            {
+              "id": "upper",
+              "value": "upper",
+              "label": "Upper middle class"
+            }
+          ]
+        }
+      },
+      "class-current": {
+        "type": "select-one",
+        "self-identify": "false",
+        "prefer-not-to-answer": "false",
+        "does-not-apply": "false",
+        "prompt": "Thinking about your current situation, which socioeconomic class do you identify with?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "working",
+              "value": "working",
+              "label": "Working class"
+            },
+            {
+              "id": "lower-middle",
+              "value": "lower-middle",
+              "label": "Lower middle class"
+            },
+            {
+              "id": "upper-middle",
+              "value": "upper-middle",
+              "label": "Upper middle class"
+            },
+            {
+              "id": "upper",
+              "value": "upper",
+              "label": "Upper middle class"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "category-sexual-romantic": {
+    "id": "sexual-romantic",
+    "short-description": "The person's sexual and romantic orientation.",
+    "long-description": "The respondent's sexual and romantic orientation.",
+    "questions": {
+      "orientation-sexual": {
+        "type": "select-multiple",
+        "self-identify": "true",
+        "prefer-not-to-answer": "true",
+        "does-not-apply": "false",
+        "prompt": "What is your sexual orientation (check all that apply)?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "aceflux",
+              "value": "aceflux",
+              "label": "Aceflux"
+            },
+            {
+              "id": "androgynesexual",
+              "value": "androgynesexual",
+              "label": "androgynesexual"
+            },
+            {
+              "id": "asexual",
+              "value": "asexual",
+              "label": "Asexual"
+            },
+            {
+              "id": "autosexual",
+              "value": "autosexual",
+              "label": "Autosexual"
+            },
+            {
+              "id": "bicurious",
+              "value": "bicurious",
+              "label": "Bicurious"
+            },
+            {
+              "id": "bisexual",
+              "value": "bisexual",
+              "label": "Bisexual"
+            },
+            {
+              "id": "demisexual",
+              "value": "demisexual",
+              "label": "Demisexual"
+            },
+            {
+              "id": "fluid-abrosexual",
+              "value": "fluid-abrosexual",
+              "label": "Fluid/abrosexual"
+            },
+            {
+              "id": "gay",
+              "value": "gay",
+              "label": "Gay"
+            },
+            {
+              "id": "graysexual",
+              "value": "graysexual",
+              "label": "Graysexual"
+            },
+            {
+              "id": "lesbian",
+              "value": "lesbian",
+              "label": "Lesbian"
+            },
+            {
+              "id": "masexual-androsexual",
+              "value": "masexual-androsexual",
+              "label": "Masexual/androsexual"
+            },
+            {
+              "id": "omnisexual",
+              "value": "omnisexual",
+              "label": "Omnisexual"
+            },
+            {
+              "id": "pansexual",
+              "value": "pansexual",
+              "label": "Pansexual"
+            },
+            {
+              "id": "poly",
+              "value": "poly",
+              "label": "Poly"
+            },
+            {
+              "id": "queer",
+              "value": "queer",
+              "label": "Queer"
+            },
+            {
+              "id": "questioning",
+              "value": "questioning",
+              "label": "Questioning"
+            },
+            {
+              "id": "straight",
+              "value": "straight",
+              "label": "Straight"
+            },
+            {
+              "id": "trisexual",
+              "value": "trisexual",
+              "label": "Trisexual"
+            },
+            {
+              "id": "womasexual-gynesexual",
+              "value": "womasexual-gynesexual",
+              "label": "Womasexual/gynesexual"
+            }
+          ]
+        }
+      },
+      "orientation-romantic": {
+        "type": "select-multiple",
+        "self-identify": "true",
+        "prefer-not-to-answer": "true",
+        "does-not-apply": "false",
+        "prompt": "What is your romantic orientation (check all that apply)?",
+        "choices": {
+          "full-set": [
+            {
+              "id": "androgyneromantic",
+              "value": "androgyneromantic",
+              "label": "Androgyneromantic"
+            },
+            {
+              "id": "arowflux",
+              "value": "aroflux",
+              "label": "aroflux"
+            },
+            {
+              "id": "aromantic",
+              "value": "aromantic",
+              "label": "Aromantic"
+            },
+            {
+              "id": "autoromantic",
+              "value": "autoromantic",
+              "label": "Autoromantic"
+            },
+            {
+              "id": "bicurious",
+              "value": "bicurious",
+              "label": "Bicurious"
+            },
+            {
+              "id": "biromantic",
+              "value": "biromantic",
+              "label": "biromantic"
+            },
+            {
+              "id": "demiromantic",
+              "value": "demiromantic",
+              "label": "Demiromantic"
+            },
+            {
+              "id": "fluid-abroromantic",
+              "value": "fluid-abroromantic",
+              "label": "Fluid/abroromantic"
+            },
+            {
+              "id": "gay",
+              "value": "gay",
+              "label": "Gay"
+            },
+            {
+              "id": "grayromantic",
+              "value": "grayromantic",
+              "label": "Grayromantic"
+            },
+            {
+              "id": "lesbian",
+              "value": "lesbian",
+              "label": "Lesbian"
+            },
+            {
+              "id": "manromantic-androromantic",
+              "value": "manromantic-androromantic",
+              "label": "Manromantic/androromantic"
+            },
+            {
+              "id": "omniromantic",
+              "value": "omniromantic",
+              "label": "Omniromantic"
+            },
+            {
+              "id": "panromantic",
+              "value": "panromantic",
+              "label": "Panromantic"
+            },
+            {
+              "id": "poly",
+              "value": "poly",
+              "label": "Poly"
+            },
+            {
+              "id": "queer",
+              "value": "queer",
+              "label": "Queer"
+            },
+            {
+              "id": "questioning",
+              "value": "questioning",
+              "label": "Questioning"
+            },
+            {
+              "id": "straight",
+              "value": "straight",
+              "label": "Straight"
+            },
+            {
+              "id": "triromantic",
+              "value": "triromantic",
+              "label": "triromantic"
+            },
+            {
+              "id": "womanromantic-gyneromantic",
+              "value": "womanromantic-gyneromantic",
+              "label": "Womanromantic/gyneromantic"
+            }
+          ]
+        }
       }
     }
   }
