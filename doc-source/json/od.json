@@ -1,0 +1,25 @@
+{
+  "age-category": {
+    "id": "age",
+    "short-description": "age of the person",
+    "questions": {
+      "how-old": {
+        "type": "select-one",
+        "self-identify": "false",
+        "prompt": "How old are you?",
+        "choices": [
+          {
+            "id": "0-19",
+            "value": "0-19",
+            "label": "0 - 19"
+          },
+          {
+            "id": "0-19",
+            "value": "0-19",
+            "label": "0 - 19"
+          }
+        ]
+      }
+    }
+  }
+}
