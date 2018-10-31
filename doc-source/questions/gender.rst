@@ -35,7 +35,7 @@ The Question
         [] Demi-gender
         [] Bigender
         [] Trigender
-	[] Two Spirit
+	    [] Two Spirit
         [] Multigender/polygender
         [] Pangender/omnigender
         [] Maxigender
@@ -47,7 +47,6 @@ The Question
         [] Graygender
         [] Agender/genderless
         [] Demi-agender
-        [] Genderless
         [] Gender neutral
         [] Neutrois
         [] Androgynous
