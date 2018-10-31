@@ -19,7 +19,7 @@ Sexual Orientation
     [] Queer
     [] Poly
     [] Asexual
-    [] Graysexual
+    [] Graysexual/Gray Ace
     [] Demisexual
     [] Bisexual
     [] Bicurious

@@ -35,7 +35,7 @@ The Question
         [] Demi-gender
         [] Bigender
         [] Trigender
-	[] Two Spirit
+	      [] Two Spirit
         [] Multigender/polygender
         [] Pangender/omnigender
         [] Maxigender
@@ -60,7 +60,7 @@ Rationale
 .......................................
 Not all gender non-conforming people consider themselves to be transgender, which is why it is a separate question.
 
-We separate the question of trans* and gender-non-conforming to include people with intersecting identities of "non-conforming" and "any other gender identity."  Because it is structured this way, people can identify as "a man" and "gender non conforming."
+We separate the question of trans and gender-non-conforming to include people with intersecting identities of "non-conforming" and "any other gender identity."  Because it is structured this way, people can identify as "a man" and "gender non conforming."
 
 We ask for people to check all identities on the gender spectrum because many LGBTQ people may identify with multiple labels. We use the terms "woman" and "man" rather than "male" and "female" because the latter terms are more associated with birth assigned gender and not current gender identity.
 
