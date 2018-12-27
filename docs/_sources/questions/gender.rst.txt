@@ -11,7 +11,7 @@ The Question
         () No
         () Questioning
 
-        Do you consider yourself to be gender non-conforming, gender diverse, gender varient, or gender expansive?
+        Do you consider yourself to be gender non-conforming, gender diverse, gender variant, or gender expansive?
         () Yes
         () No
         () Questioning
