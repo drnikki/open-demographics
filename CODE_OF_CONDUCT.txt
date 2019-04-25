@@ -1,9 +1,9 @@
 Contributor Code of Conduct
 ---------------------------
-As we advocate for the open source communities to be diverse and inclusive, 
+As we advocate for the open source communities to be diverse and inclusive,
 as a collaborating group we must also work to be inclusive, respectful and
 diverse. We’ve adopted the contributor code of conduct created by Contributor
-Convenant, specifically version 1.4: http://contributor-covenant.org/version/1/4/.  The text of the Code of Conduct is below.
+Covenant, specifically version 1.4: http://contributor-covenant.org/version/1/4/.  The text of the Code of Conduct is below.
 
 If you need to report a Code of Conduct violation, you can contact Nikki Stevens (@drnikki on Github), the administrator of this module.  Contact via twitter DM (@drnikki), email: nikki@drnikki.org, or anonymously at: https://docs.google.com/forms/d/e/1FAIpQLScN75OCgMGQp2389yDQ3KzDWEViXXAD7WZXtpr9f28hqMEWDg/viewform?usp=sf_link
 
@@ -82,5 +82,3 @@ This Code of Conduct is adapted from the [Contributor Covenant][homepage], versi
 available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
 
 [homepage]: https://www.contributor-covenant.org
-
-
