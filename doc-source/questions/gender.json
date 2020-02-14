@@ -1,5 +1,6 @@
 {
   "label": "Gender identification",
+  "description": "The respondent's gender identification.",
   "question_list": [
     {
       "id": "gender_transgender",
