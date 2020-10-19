@@ -6,7 +6,7 @@ The Question
 .......................................
 ::
 
-      Please choose your country of residence. |v| Dropdown of Countries |
+      Please choose your country of residence. |v| Dropdown of Countries (including Decline to State) |
 
       Which word best describes the area where you live and work?
       () Rural
