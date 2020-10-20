@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Open Demographics question group",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string"
+    },
+    "question_list": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/question"
+      }
+    }
+  },
+  "required": [
+    "question_list"
+  ],
+  "definitions": {
+    "question": {
+      "title": "Open Demographics question",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "question_type": {
+          "type": "string",
+          "enum": [
+            "text",
+            "select",
+            "select_multiple"
+          ]
+        },
+        "self_identify": {
+          "type": "boolean",
+          "default": false
+        },
+        "question_required": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "id",
+        "question_type",
+        "self_identify",
+        "question_required"
+      ],
+      "if": {
+        "properties": {
+          "question_type": {
+            "enum": [
+              "select",
+              "select_multiple"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "options": {
+            "type": "object",
+            "propertyNames": {
+              "pattern": "^[A-Za-z0-9]([A-Za-z0-9_-])*[A-Za-z0-9]*$"
+            },
+            "patternProperties": {
+              "^*$": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "required": [
+          "options"
+        ]
+      }
+    }
+  }
+}
