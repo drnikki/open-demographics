@@ -6,22 +6,31 @@ The Question
 ^^^^^^^^^^^^^^^^^
 ::
 
-      Do you identify as having a disability as defined under the
-      [Americans with Disabilities Act](https://adata.org/faq/what-definition-disability-under-ada)?
-      [] Yes, Cognitive
-      [] Yes, Emotional
-      [] Yes, Hearing
-      [] Yes, Mental
-      [] Yes, Physical
-      [] Yes, Visual
-      [] Yes, Self Identify: _________________
-      [] No
-      [] Prefer not to answer
+      Do you identify as a person with a disability? For the purpose of this survey we define disability as a long-term physical, mental,       intellectual or sensory impairment which, in interaction with various attitudinal and environmental barriers, hinders your full and       effective participation in society on an equal basis with others.        (http://www.un.org/disabilities/documents/convention/convention_accessible_pdf.pdf See Article 1 on Page 3)
 
-      Does your disability affect how you work?
+      [] Yes
+      [] No
+  
+      What parts of your life does your disability affect?
+
+      [] My disability affects focus, memory, and attention.
+      [] My disability affects my emotions and how I perceive the emotions of others.
+      [] My disability affects my hearing.
+      [] My disability affects my mood, thinking, and behavior.
+      [] My disability affects how I move.
+      [] My disability affects my vision.
+      [] My disability affects how much energy I have.
+      [] My disability means that some substances in the environment can affect me negatively.
+      [] My disability means I am regularly absent from school or work in order to get treatment.
+      [] My disability affects another part of my life as follows: __________________.
+      [] I do not have a disability.
+      [] Prefer not to answer.
+     
+     Does your disability affect how you work?
       () Yes
       () No
-      () Prefer not to answer
+      () I do not identify as a person with a disability.
+      () Prefer not to answer.
 
 
 Questions this can help you answer
