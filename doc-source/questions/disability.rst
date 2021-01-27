@@ -22,7 +22,15 @@ The Question
       () Yes
       () No
       () Prefer not to answer
+      
+      How would you define your outlook to life?
+      () Positive
+      () Negative
+      () Not sure
 
+      What was the nature of your disability?
+      () Acquired
+      () Congenital
 
 Questions this can help you answer
 .......................................
