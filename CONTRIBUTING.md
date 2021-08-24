@@ -12,7 +12,7 @@
 
 The *most valuable* contributions from people are their ideas. Look through the [existing issues](https://github.com/drnikki/open-demographics/issues/) and add your thoughts, questions, and ideas.
 
-If you don't have one, you'll need a [GitHub account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account) to do this.
+If you don't have one, you'll need a [GitHub account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account) to do this (and most other actions described in this document).
 
 ### Open New Issues
 
