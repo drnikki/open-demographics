@@ -81,6 +81,8 @@ pygments_style = 'sphinx'
 todo_include_todos = True
 todo_link_only = True # because it shows the full local path :(
 
+# Extension configuration for sphinxcontrib.bibtex
+bibtex_bibfiles = ['references/bibliography/bibliography.bib']
 
 # -- Options for HTML output ----------------------------------------------
 
