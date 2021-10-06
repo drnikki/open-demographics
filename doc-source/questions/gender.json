@@ -1,0 +1,55 @@
+{
+  "label": "Gender identification",
+  "description": "The respondent's gender identification.",
+  "question_list": [
+    {
+      "id": "gender_transgender",
+      "label": "Do you consider yourself to be transgender?",
+      "question_type": "select",
+      "self_identify": false,
+      "question_required": false,
+      "options": {
+        "yes": "Yes",
+        "no": "No",
+        "questioning": "Questioning"
+      }
+    },
+    {
+      "id": "gender_non_conforming",
+      "label": "Do you consider yourself to be gender non-conforming, gender diverse, gender variant, or gender expansive?",
+      "question_type": "select",
+      "self_identify": false,
+      "question_required": false,
+      "options": {
+        "yes": "Yes",
+        "no": "No",
+        "questioning": "Questioning"
+      }
+    },
+    {
+      "id": "gender_intersex",
+      "label": "Are you intersex?",
+      "question_type": "select",
+      "self_identify": false,
+      "question_required": false,
+      "options": {
+        "yes": "Yes",
+        "no": "No",
+        "questioning": "Questioning"
+      }
+    },
+    {
+      "id": "gender_spectrum",
+      "label": "Where do you identify on the gender spectrum (check all that apply)?",
+      "question_type": "select_multiple",
+      "self_identify": true,
+      "question_required": false,
+      "options": {
+        "woman": "Woman",
+        "demi-girl": "Demi-girl",
+        "man": "Man",
+        "demi-boy": "Demi-boy"
+      }
+    }
+  ]
+}
